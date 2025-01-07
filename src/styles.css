@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+  background-color: cadetblue;
+}
+.heading {
+  font-family: monospace;
+  font-size: 90px;
+}
+.stopwatch {
+  display: block;
+  border: 1px solid black;
+  padding: 1rem;
+  width: 32rem;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.button_container {
+  display: flex;
+  margin-top: 3rem;
+}
+.button {
+  color: white;
+  background-color: black;
+  padding: 0.75rem;
+  font-size: xx-large;
+  border-radius: 5px;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: grey;
+}
+.button:disabled {
+  opacity: 75%;
+  background-color: black;
+}
+.time_div {
+  font-size: 90px;
+  display: inline-block;
+  width: 6.2rem;
+  border: 0.5px solid #ededed;
+  padding: 2px;
+  background-color: grey;
+  color: white;
+}
+
+.time_colon {
+  font-size: 90px;
+  color: white;
+  padding: 2px;
+}
